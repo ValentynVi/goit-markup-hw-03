@@ -1,0 +1,217 @@
+:root {
+  --primary-background-color: #ffffff;
+  --secondary-background-color: #2e2f42;
+  --third-background-color: #f4f4fd;
+  --primary-text-color: #434455;
+  --secondary-text-color: #2e2f42;
+  --third-text-color: #f4f4fd;
+  --primery-accent-color: #404bbf;
+  --secondary-accent-color: #4d5ae5;
+}
+
+
+/**
+  |============================
+  | BASE STYLE
+  |============================
+*/
+body {
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.02em;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.title {
+  color: var(--secondary-text-color);
+  letter-spacing: 0.02em;
+}
+
+.text {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* INDEX PAGE */
+/**
+  |============================
+  | HEADER FOOTER LOGO STYLE
+  |============================
+*/
+.header-nav-logo,
+.footer-logo {
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
+  letter-spacing: 0.03em;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  text-transform: uppercase
+}
+
+.logo-span {
+  color: #2e2f42;
+}
+
+.footer-span {
+    color: #f4f4fd;
+}
+
+
+/**
+  |============================
+  | HEADER NAV ADDRESS STYLE
+  |============================
+*/
+.header-nav-list .link {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.header-nav-list .link:hover,
+.header-nav-list .link:focus,
+.header-address-list .link:hover,
+.header-address-list .link:focus {
+  color: var(--primery-accent-color);
+}
+
+.header-address {
+  font-style: normal;
+}
+
+/**
+  |============================
+  | HERO STYLE
+  |============================
+*/
+.hero {
+  background-color: var(--secondary-background-color);
+}
+.hero-title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em; 
+}
+
+.hero-button {
+  background-color: var(--secondary-accent-color);
+  color: #ffffff;
+  font-family: inherit;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--primery-accent-color);
+}
+
+
+/**
+  |============================
+  | FEATURES ABOUT EMPLOYEE STYLE 
+  |============================
+*/
+
+.features-title,
+.about-title,
+.employee-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.features-list .title,
+.employee-list .title { 
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.employee {
+  background-color: var(--third-background-color);
+}
+
+.employee-item {
+  background-color: #ffffff;
+}
+
+/**
+  |============================
+  | FOOTER STYLE
+  |============================
+*/
+.footer {
+  background-color: var(--secondary-background-color);
+  color: var(--third-text-color);
+}
+
+
+/* PORTFOLIO-PAGE */
+/**
+  |============================
+  | PORTFOLIO BUTTON STYLE
+  |============================
+*/
+.portfolio-button {
+  background-color: var(--third-background-color);
+  color: var(--secondary-accent-color);
+  font-family: inherit;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  background-color: var(--primery-accent-color);
+  color: #ffffff;
+}
+
+
+/**
+  |============================
+  | PORTFOLIO STYLE
+  |============================
+*/
+.portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+}
+
+.portfolio-img-list .title { 
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+ 
+}
+
+
+
+
+
+
+
