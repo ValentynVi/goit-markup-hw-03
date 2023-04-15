@@ -66,11 +66,15 @@ body {
 /* INDEX PAGE */
 /**
   |============================
-  | HEADER FOOTER LOGO STYLE
+  | HEADER STYLE
   |============================
 */
-.header-nav-logo,
-.footer-logo {
+/* HEADER NAV */
+.header {
+}
+.header-nav {
+}
+.logo {
   color: #4d5ae5;
   font-family: var(--secondary-fonts);
   letter-spacing: 0.03em;
@@ -84,15 +88,6 @@ body {
   color: #2e2f42;
 }
 
-.footer-span {
-  color: #f4f4fd;
-}
-
-/**
-  |============================
-  | HEADER NAV ADDRESS STYLE
-  |============================
-*/
 .header-nav-list .link {
   color: var(--secondary-text-color);
   font-weight: 500;
@@ -101,14 +96,18 @@ body {
 }
 
 .header-nav-list .link:hover,
-.header-nav-list .link:focus,
-.header-address-list .link:hover,
-.header-address-list .link:focus {
+.header-nav-list .link:focus {
   color: var(--primary-accent-color);
 }
 
+/* HEADER ADRRESS */
 .header-address {
   font-style: normal;
+}
+
+.header-address-list .link:hover,
+.header-address-list .link:focus {
+  color: var(--primary-accent-color);
 }
 
 /**
@@ -116,9 +115,11 @@ body {
   | HERO STYLE
   |============================
 */
+
 .hero {
   background-color: var(--secondary-background-color);
 }
+
 .hero-title {
   color: #ffffff;
   font-weight: 700;
@@ -140,10 +141,21 @@ body {
 
 /**
   |============================
-  | FEATURES ABOUT EMPLOYEE STYLE 
+  | FEATURES STYLE
   |============================
 */
 
+/**
+  |============================
+  | ABOUT STYLE
+  |============================
+*/
+
+/**
+  |============================
+  | EMPLOYEE STYLE
+  |============================
+*/
 .employee {
   background-color: var(--third-background-color);
 }
@@ -160,6 +172,10 @@ body {
 .footer {
   background-color: var(--secondary-background-color);
   color: var(--third-text-color);
+}
+
+.footer-span {
+  color: #f4f4fd;
 }
 
 /* PORTFOLIO-PAGE */
