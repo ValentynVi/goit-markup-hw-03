@@ -5,10 +5,11 @@
   --primary-text-color: #434455;
   --secondary-text-color: #2e2f42;
   --third-text-color: #f4f4fd;
-  --primery-accent-color: #404bbf;
+  --primary-accent-color: #404bbf;
   --secondary-accent-color: #4d5ae5;
+  --primary-fonts: Roboto, sans-serif;
+  --secondary-fonts: Raleway, sans-serif;
 }
-
 
 /**
   |============================
@@ -18,7 +19,7 @@
 body {
   background-color: var(--primary-background-color);
   color: var(--primary-text-color);
-  font-family: Roboto, sans-serif;
+  font-family: var(--primary-fonts);
   letter-spacing: 0.02em;
 }
 
@@ -28,17 +29,38 @@ body {
 
 .link {
   text-decoration: none;
+  color: currentColor;
 }
 
 .title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.subtitle {
   color: var(--secondary-text-color);
   letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
 }
 
 .text {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.5;
+}
+
+.btn {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
 /* INDEX PAGE */
@@ -50,12 +72,12 @@ body {
 .header-nav-logo,
 .footer-logo {
   color: #4d5ae5;
-  font-family: Raleway, sans-serif;
+  font-family: var(--secondary-fonts);
   letter-spacing: 0.03em;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  text-transform: uppercase
+  text-transform: uppercase;
 }
 
 .logo-span {
@@ -63,9 +85,8 @@ body {
 }
 
 .footer-span {
-    color: #f4f4fd;
+  color: #f4f4fd;
 }
-
 
 /**
   |============================
@@ -83,7 +104,7 @@ body {
 .header-nav-list .link:focus,
 .header-address-list .link:hover,
 .header-address-list .link:focus {
-  color: var(--primery-accent-color);
+  color: var(--primary-accent-color);
 }
 
 .header-address {
@@ -104,48 +125,24 @@ body {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
-  letter-spacing: 0.02em; 
+  letter-spacing: 0.02em;
 }
 
 .hero-button {
   background-color: var(--secondary-accent-color);
   color: #ffffff;
-  font-family: inherit;
-  letter-spacing: 0.04em;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  cursor: pointer;
 }
 
 .hero-button:hover,
 .hero-button:focus {
-  background-color: var(--primery-accent-color);
+  background-color: var(--primary-accent-color);
 }
-
 
 /**
   |============================
   | FEATURES ABOUT EMPLOYEE STYLE 
   |============================
 */
-
-.features-title,
-.about-title,
-.employee-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  text-transform: capitalize;
-}
-
-.features-list .title,
-.employee-list .title { 
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-}
 
 .employee {
   background-color: var(--third-background-color);
@@ -165,7 +162,6 @@ body {
   color: var(--third-text-color);
 }
 
-
 /* PORTFOLIO-PAGE */
 /**
   |============================
@@ -175,43 +171,16 @@ body {
 .portfolio-button {
   background-color: var(--third-background-color);
   color: var(--secondary-accent-color);
-  font-family: inherit;
-  letter-spacing: 0.04em;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  cursor: pointer;
 }
 
 .portfolio-button:hover,
 .portfolio-button:focus {
-  background-color: var(--primery-accent-color);
+  background-color: var(--primary-accent-color);
   color: #ffffff;
 }
-
 
 /**
   |============================
   | PORTFOLIO STYLE
   |============================
 */
-.portfolio-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-}
-
-.portfolio-img-list .title { 
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
- 
-}
-
-
-
-
-
-
-
