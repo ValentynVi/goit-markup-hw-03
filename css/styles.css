@@ -233,13 +233,16 @@ ul {
 .hero-button {
   padding: 16px 32px;
 
+  display: block;
+  margin: 0 auto;
   min-width: 169px;
-  min-height: 56px;
+  height: 56px;
 
   color: #ffffff;
 
   background-color: var(--secondary-accent-color);
-  border: 1px solid transparent;
+  border: none;
+  /* border: 1px solid transparent; */
 }
 
 .hero-button:hover,
