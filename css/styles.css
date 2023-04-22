@@ -388,6 +388,7 @@ ul {
   padding: 32px 16px;
 
   border: 1px solid var(--border-color);
+
   border-top: none;
 }
 
@@ -411,6 +412,6 @@ ul {
 .portfolio-button:hover,
 .portfolio-button:focus {
   color: #ffffff;
-
+  border: 1px solid transparent;
   background-color: var(--primary-accent-color);
 }
